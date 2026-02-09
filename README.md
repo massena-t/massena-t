@@ -1,38 +1,33 @@
 ## 👋 Hi there!
-
-I'm a PhD student at [IRIT](https://www.irit.fr/en/home/) working on **certifiable adversarial robustness** in Deep Neural Networks. My research explores how mathematical constraints — especially Lipschitz bounds — can provide **provable safety guarantees** for machine learning models, even under adversarial or noisy inputs.
+I'm a PhD student at [IRIT](https://www.irit.fr/en/home/) working on **provably robust deep learning** for safety-critical autonomous systems (in partnership with SNCF). My research focuses on building AI systems with **formal safety guarantees** through mathematical constraints, efficient optimization, and uncertainty quantification.
 
 ---
 
 ## 🧠 Research Interests
-
-- 🛡️ **Robustness** of neural networks (certified & empirical)
-- ✅ **Conformal Prediction** for reliable uncertainty quantification
-- 🔐 **Differential Privacy** and efficient private training
-
----
-
-## 🔧 Notable Contributions
-
-### [💡 lipdp](https://github.com/deel-ai/lipdp) — *Main Contributor*
-
-A TensorFlow library for **fast, differentially private training** using projected gradient descent on the **Stiefel manifold**. It enables DP-SGD with **up to 92% less runtime overhead** compared to standard TF-Privacy.
-
-📄 [Associated Paper](https://arxiv.org/abs/2305.16202)
+- 🛡️ **Adversarial Robustness** — Certified defenses and Lipschitz-bounded networks
+- ✅ **Conformal Prediction** — Reliable uncertainty quantification with formal guarantees
+- ⚡ **Optimization** — Scalable methods for constrained networks and efficient training
+- 🔐 **Privacy** — Differential privacy and private training methods
 
 ---
 
-### [🛡️ lip-rcp](https://github.com/deel-ai-papers/lip-rcp) — *Sole Contributor*
+## 🔧 Open Source Projects
 
-A scalable method for **robust Conformal Prediction** that provides **finite-sample safety guarantees** under adversarial perturbations. Outperforms certified smoothing methods in memory and scalability, offering a **1000x memory improvement**.
+### [⚡ flash-ns](https://github.com/thib-s/flash-newton-schulz)
+Triton-accelerated Newton-Schulz optimization (Turbo-Muon). Standalone implementations for PyTorch and Optax.
 
-📄 [Associated Paper](https://arxiv.org/abs/2506.05434)
+### [💡 lipdp](https://github.com/deel-ai/lipdp)
+Fast differentially private training using Lipschitz networks. Eliminates clipping overhead in DP-SGD.
+
+### [🛡️ lip-rcp](https://github.com/deel-ai-papers/lip-rcp)
+Scalable robust conformal prediction with finite-sample safety guarantees under adversarial perturbations.
+
+### [🎯 robust-segmentation](https://github.com/deel-ai-papers/robust-segmentation)
+Certifiably robust semantic segmentation methods.
+
+### [⚙️ jaxlip](https://github.com/massena-t/jaxlip) — *Under Development*
+Fast, compileable Lipschitz-constrained networks in JAX with efficient multi-GPU support.
 
 ---
 
-### [⚙️ jaxlip](https://github.com/massena-t/jaxlip) — *Personal Project (work in progress)*
-
-An experimental JAX library enabling **fast training of Lipschitz-bounded networks** using the **Newton–Schulz iterative projection**. Designed for speed, compilation, and easy experimentation with certified models.
-
----
-
+📫 Reach me: [thomasmassena@gmail.com](mailto:thomasmassena@gmail.com) | [Website](https://massena-t.github.io/) | [Google Scholar](https://scholar.google.com/citations?user=n09aacYAAAAJ&hl=en)
